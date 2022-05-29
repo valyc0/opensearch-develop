@@ -4,7 +4,7 @@ cp ./OpenSearch-Dashboards/config/opensearch_dashboards.yml_ori ./OpenSearch-Das
 # start opensearch db:
 docker run -d -p 9200:9200 -p 9600:9600 --name os-node1 -e "discovery.type=single-node" opensearchproject/opensearch:1.2.0
 
-#git clone https://github.com/opensearch-project/OpenSearch-Dashboards.git
+git clone https://github.com/opensearch-project/OpenSearch-Dashboards.git
 
 cd OpenSearch-Dashboards
 git checkout 1.1.0
