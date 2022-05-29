@@ -1,4 +1,4 @@
-cp ./OpenSearch-Dashboards/config/opensearch_dashboards.yml_ori ./OpenSearch-Dashboards/config/opensearch_dashboards.yml
+
 
 #START
 # start opensearch db:
